@@ -24,32 +24,4 @@ AI Custom Reminders is a Chrome extension designed to help users stay on track w
 2. Fill out the onboarding form with your name, goals, and habits.
 3. The extension will save your data and start generating reminders based on your input.
 
-## Files
 
-- **popup.js**: Handles the form submission and saves user data.
-- **manifest.json**: Defines the extension's metadata and permissions.
-- **background.js**: Sets up alarms and handles the generation and display of reminders.
-
-## Permissions
-
-- **storage**: To save user data.
-- **notifications**: To display reminders.
-- **alarms**: To trigger reminders at regular intervals.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
-
-## Contact
-
-For any questions or suggestions, please open an issue or contact the repository owner.
-
-Enjoy your personalized reminders!
