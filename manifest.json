@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "AI Custom Reminders",
+    "version": "1.0",
+    "permissions": ["storage", "notifications", "alarms"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["styles.css", "icon.png"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
